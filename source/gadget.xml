@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gadget>
+  <name>MFCoin Course</name>
+  <namespace>microsoft.windows</namespace>
+  <version>1.0.0.1</version>
+  <author name="MFCoin">
+      <info url="https://mfc-market.ru"/>
+      <logo src="logo.png"/>
+  </author>
+  <copyright>2019 Sagleft</copyright>
+  <description>Курс MFCoin</description>
+  <icons>
+    <icon height="48" width="48" src="icon.png"/>
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <autoscaleDPI>true</autoscaleDPI>
+      <base type="html" apiVersion="1.0.0" src="index.html"/>
+      <permissions>full</permissions>
+      <platform minPlatformVersion="1.0"/>
+      <defaultImage src="drag.png"/>
+    </host>
+  </hosts>
+</gadget>
